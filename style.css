@@ -1,0 +1,12 @@
+.insta-window {
+    width: 343px;       /* small window */
+    max-height: 500px;  /* max height for scroll */
+    overflow-y: auto;   /* vertical scroll if needed */
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background: #fafafa;
+}
+.insta-window blockquote {
+    margin-bottom: 10px;
+}
