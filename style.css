@@ -1,12 +1,62 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    padding: 20px; /* adjust the value as needed */
+    box-sizing: border-box; /* ensures padding doesn't cause horizontal scroll */
+}
+
 .insta-window {
-    width: 343px;       /* small window */
-    max-height: 500px;  /* max height for scroll */
-    overflow-y: auto;   /* vertical scroll if needed */
+    width: 343px;       
+    max-height: 500px;  
+    overflow-y: auto;   
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 8px;
     background: #fafafa;
+
+    margin: 20px auto;  /* centers horizontally, adds 20px top/bottom spacing */
 }
+
+.container {
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: flex-start; /* aligns items at the top instead of center */
+    height: auto;            /* remove full viewport height if not needed */
+    padding: 0;              /* remove any container padding */
+}
+
+
 .insta-window blockquote {
     margin-bottom: 10px;
+}
+
+
+p{
+    font-style: italic;
+}
+
+span{
+    opacity: 50%;
+    font-size: small;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+.sociallinks{
+    text-align: right;
+}
+
+.sociallinks a {
+    display: block;       /* makes each link start on a new line */
+    margin-bottom: 0px;  /* optional spacing between links */
+    text-decoration: none; /* optional: remove underline */
+    color: #0073b1;        /* optional: set link color */
+}
+
+.sociallinks h3 {
+    margin-bottom: 0px;
 }
